@@ -1,0 +1,8 @@
+2025-01-28 10:12:46,102 INFO [auth] POST /login from 172.17.0.4
+2025-01-28 10:12:46,245 ERROR [auth] Invalid credentials for user: singara
+2025-01-28 10:13:01,004 INFO [api] GET /v1/users?id=102
+2025-01-28 10:13:01,556 ERROR [db-query] Timeout fetching user details
+java.sql.SQLTimeoutException: Query timed out at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1234)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+        at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2025-01-28 10:13:03,120 INFO [cache] Cache miss for key user:102

@@ -1,0 +1,106 @@
+/* -------- Global -------- */
+body {
+    background-color: #050810;
+    color: #f7f7f7;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.main {
+    background-color: #050810;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #0B1220;
+    color: #f7f7f7;
+}
+
+/* -------- Titles -------- */
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: #E5E7EB;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    text-align: center;
+    color: #9CA3AF;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #F9FAFB;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* -------- Log box -------- */
+textarea, .stTextArea textarea {
+    background-color: #111827 !important;
+    color: #F9FAFB !important;
+    border-radius: 10px !important;
+}
+
+/* -------- Cards -------- */
+.card {
+    background: #0B1220;
+    border-radius: 14px;
+    border: 1px solid #1F2937;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
+}
+
+.card-header {
+    font-weight: 600;
+    color: #E5E7EB;
+    margin-bottom: 6px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.card-body {
+    color: #D1D5DB;
+    font-size: 14px;
+}
+
+/* -------- Tags -------- */
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.tag-pill {
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #1D4ED8, #2563EB);
+    color: #F9FAFB;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+/* -------- Chat -------- */
+.chat-user, .chat-bot {
+    padding: 8px 10px;
+    border-radius: 10px;
+    margin-top: 6px;
+    max-width: 70%;
+}
+
+.chat-user {
+    margin-left: auto;
+    background-color: #1D4ED8;
+    color: #F9FAFB;
+}
+
+.chat-bot {
+    margin-right: auto;
+    background-color: #111827;
+    border: 1px solid #1F2937;
+    color: #E5E7EB;
+}

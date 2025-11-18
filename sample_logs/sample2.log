@@ -1,0 +1,4 @@
+2025-01-28 09:01:10,991 INFO [api] GET /v1/orders
+2025-01-28 09:01:11,245 WARN [cache] Fallback to DB – cache connection refused
+2025-01-28 09:01:11,678 ERROR [cache] Failed to connect to Redis at redis:6379: Connection refused
+2025-01-28 09:01:12,003 ERROR [orders] Failed to fetch orders due to cache layer exception
